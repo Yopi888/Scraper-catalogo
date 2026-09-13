@@ -33,13 +33,14 @@ An automation CLI tool designed for large-scale data extraction from e-commerce 
   ```
   Example:
   ```bash
-  python scraper_catalogo.py [http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html](http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html)
+  python scraper_catalogo.py http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
   ```
 ##  Output
 The script generates a structured complete_books_catalog.csv file for example:
 
-Title,Price_GBP,Status
-Scott Pilgrim's Precious Little Life,52.29,In stock
-Tipping the Velvet,53.74,In stock
-
+  ```csv
+  Title,Price_GBP,Status
+  Scott Pilgrim's Precious Little Life,52.29,In stock
+  Tipping the Velvet,53.74,In stock
+  ```
 ## Author: Computer & Automation Engineering Student (Politecnico di Bari). Focused on backend software development, web scraping, and automation pipelines.
